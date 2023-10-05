@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btn_carrito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ir al carrito" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="Nuestros productos"
+            android:textSize="24sp" />
+
+        <!-- Botón 1 con imagen y título -->
+
+        <TextView
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            android:text="Fuel Filters:"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="446dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/producto1"
+            android:clickable="true"
+            android:onClick="onProductButtonClick"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/logo" />
+        </LinearLayout>
+
+
+        <!-- Botón 2 con imagen y título -->
+        <TextView
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            android:text="Oil Filters:"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/producto2"
+            android:clickable="true"
+            android:onClick="onProductButtonClick"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/logo" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="181dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            android:text="Air Filters:"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="394dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/producto3"
+            android:clickable="true"
+            android:onClick="onProductButtonClick"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/logo" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="181dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            android:text="Cabin Filters:"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="436dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/producto4"
+            android:clickable="true"
+            android:onClick="onProductButtonClick"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/logo" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="181dp"
+            android:layout_height="26dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            android:text="Other Filters:"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="437dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/producto5"
+            android:clickable="true"
+            android:onClick="onProductButtonClick"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/logo" />
+
+        </LinearLayout>
+
+        <!-- Repite la estructura para los botones 3, 4, 5, etc. según sea necesario -->
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+

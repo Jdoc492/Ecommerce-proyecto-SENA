@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">A.L.GROUP</string>
+
+    <!--Main activity-->
+    <string name="edt_password"></string>
+    <string name="txt_subTitulo"></string>
+    <string name="edt_codRandom"></string>
+    <string name="txt_tiempoR"></string>
+    <string name="btn_login">Ingresa</string>
+</resources>
